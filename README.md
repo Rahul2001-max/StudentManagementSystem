@@ -70,13 +70,12 @@ StudentManagement/
 
 4. Deploy to Tomcat server and run the project
 
-🧪 Testing
+## Testing
 Access app at: http://localhost:8080/StudentManagement/
-
 Test all CRUD operations
 
 
 
-📜 License
+## 📜 License
 This project is open source and available under the MIT License.
 
