@@ -27,11 +27,8 @@ A basic web app to manage student records. You can Create, Read, Update, Delete 
 
 ## 📂 Project Structure
 
-StudentManagement/ ├── src/ │ ├── com.project.action # Struts Actions │ ├── com.project.dao # DAO layer │ ├── com.project.model # POJO class (Student.java) │ └── com.project.service # Optional service layer ├── resources/ │ ├── hibernate.cfg.xml │ └── Student.hbm.xml ├── WebContent/ │ ├── addStudent.jsp │ ├── viewStudents.jsp │ ├── editStudent.jsp │ ├── success.jsp │ ├── error.jsp │ └── WEB-INF/ │ └── web.xml ├── struts.xml
+<pre> StudentManagement/ ├── src/ │ ├── com.project.action # Struts Actions │ ├── com.project.dao # DAO layer │ ├── com.project.model # POJO class (Student.java) │ └── com.project.service # Optional service layer ├── resources/ │ ├── hibernate.cfg.xml │ └── Student.hbm.xml ├── WebContent/ │ ├── addStudent.jsp │ ├── viewStudents.jsp │ ├── editStudent.jsp │ ├── success.jsp │ ├── error.jsp │ └── WEB-INF/ │ └── web.xml ├── struts.xml </pre>
 
-yaml
-Copy
-Edit
 
 ---
 
@@ -40,24 +37,19 @@ Edit
 1. **Clone this repository:**
    ```bash
    git clone https://github.com/yourusername/StudentManagement.git
-Import into Eclipse:
+2. Import into Eclipse:
 
-File → Import → Existing Projects into Workspace
+   File → Import → Existing Projects into Workspace
 
-Configure Database:
+3. Configure Database:
 
-Create a database named student_db
+   Create a database named student_db
 
-Run the SQL script or let Hibernate auto-create the table
+   Run the SQL script or let Hibernate auto-create the table
 
-Update DB credentials in hibernate.cfg.xml:
+   Update DB credentials in hibernate.cfg.xml:
 
-xml
-Copy
-Edit
-<property name="hibernate.connection.username">your_user</property>
-<property name="hibernate.connection.password">your_pass</property>
-Deploy to Tomcat server and run the project
+4. Deploy to Tomcat server and run the project
 
 🧪 Testing
 Access app at: http://localhost:8080/StudentManagement/
@@ -67,11 +59,10 @@ Test all CRUD operations
 
 
 📜 License
-This project is open source and available under the MIT License.
+   This project is open source and available under the MIT License.
+
 
 🙌 Acknowledgments
 Struts 2 Documentation
-
 Hibernate XML Mapping
-
 JSP & Servlet Basics
