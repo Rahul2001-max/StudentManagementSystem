@@ -72,7 +72,7 @@ StudentManagement/
 
 ## Testing
 Access app at: http://localhost:8080/StudentManagement/
-Test all CRUD operations
+
 
 
 
