@@ -1,0 +1,37 @@
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+    "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+    <package name="default" extends="struts-default" >
+        <action name="register" class="com.example.action.StudentAction" method="saveStudentDetails">
+          	<result name="success" type="redirectAction">
+            <param name="actionName">getStudent</param>
+           </result>
+           <result name="error">error.jsp</result>
+           <result name="duplicate">duplicate.jsp</result>
+        </action>
+        
+         <action name="getStudent" class="com.example.action.StudentAction" method="fetchAllStudent">
+            <result name="listPage">listStudent.jsp</result>
+            <result name="error">error.jsp</result>
+        </action>
+        
+        <action name="editStudent" class="com.example.action.StudentAction" method="editStudent">
+    		<result name="success">/edit.jsp</result>
+    		 <result name="error">error.jsp</result>
+		</action>
+		 <action name="updateStudent" class="com.example.action.StudentAction" method="updateStudent">
+    		<result name="success" type="redirectAction">
+            <param name="actionName">getStudent</param>
+           </result>
+    		 <result name="error">error.jsp</result>
+		</action>
+		
+		<action name="deleteStudent" class="com.example.action.StudentAction" method="deleteStudent">
+    		<result name="success" type="redirectAction">
+            <param name="actionName">getStudent</param>
+           </result>
+    		 <result name="error">error.jsp</result>
+		</action>
+        
+    </package>
+</struts>
