@@ -27,7 +27,26 @@ A basic web app to manage student records. You can Create, Read, Update, Delete 
 
 ## 📂 Project Structure
 
-<pre> StudentManagement/ ├── src/ │ ├── com.project.action # Struts Actions │ ├── com.project.dao # DAO layer │ ├── com.project.model # POJO class (Student.java) │ └── com.project.service # Optional service layer ├── resources/ │ ├── hibernate.cfg.xml │ └── Student.hbm.xml ├── WebContent/ │ ├── addStudent.jsp │ ├── viewStudents.jsp │ ├── editStudent.jsp │ ├── success.jsp │ ├── error.jsp │ └── WEB-INF/ │ └── web.xml ├── struts.xml </pre>
+<pre>
+StudentManagement/
+├── src/
+│   ├── com.project.action        # Struts Actions
+│   ├── com.project.dao           # DAO layer
+│   ├── com.project.model         # POJO class (Student.java)
+│   └── com.project.service       # Optional service layer
+├── resources/
+│   ├── hibernate.cfg.xml
+│   └── Student.hbm.xml
+├── WebContent/
+│   ├── addStudent.jsp
+│   ├── viewStudents.jsp
+│   ├── editStudent.jsp
+│   ├── success.jsp
+│   ├── error.jsp
+│   └── WEB-INF/
+│       └── web.xml
+├── struts.xml
+</pre>
 
 
 ---
@@ -59,10 +78,5 @@ Test all CRUD operations
 
 
 📜 License
-   This project is open source and available under the MIT License.
+This project is open source and available under the MIT License.
 
-
-🙌 Acknowledgments
-Struts 2 Documentation
-Hibernate XML Mapping
-JSP & Servlet Basics
